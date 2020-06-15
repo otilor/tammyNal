@@ -38,8 +38,13 @@ body {
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono-Regular.ttf");
 }
-
-textarea, [contenteditable] {
+#lead-text {
+    border: none;
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+}
+.textarea, [contenteditable] {
     caret-color: white;
     resize: none;
     outline: none;
