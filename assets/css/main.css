@@ -1,3 +1,53 @@
 body {
+    background-color: #272727;
+    color: #ffffff;
+    font-family: "JetBrainsMono";
+}
+.lead {
+    font-size: 27px;
+    color: #fff;
+}
+.center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+#console {
+    width: 500px;
+    height: 300px;
+    background-color: #000000;
+    border-radius: 12px;
+}
+#terminal-lead-text {
+    color: #ff5100;
+    padding-left: 15px;
+}
+.center-div
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("../fonts/JetBrainsMono-Regular.ttf");
+}
+
+textarea {
+    resize: none;
+    outline: none;
     background-color: #000;
+    color: white;
+    width: 500px;
+    height: 300px;
+    font-size: 17px;
+    padding: 20px;
+    border: 1px solid crimson;
+    border-radius: 12px;
 }
