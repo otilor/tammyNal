@@ -3,7 +3,16 @@ body {
     color: white;
     font-family: "JetBrainsMono";
 }
+.lead {
+    font-size: 27px;
+}
+.center {
+    text-align: center;
+}
 
+.underline {
+    text-decoration: underline;
+}
 @font-face {
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono-Regular.ttf");
