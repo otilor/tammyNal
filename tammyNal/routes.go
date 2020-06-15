@@ -5,5 +5,5 @@ import (
 )
 
 func Index (w http.ResponseWriter, r *http.Request) {
-	render(w, "index.html", r)
+	render(w, "tammyNal.png", r)
 }
