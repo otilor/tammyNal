@@ -1,1 +1,1 @@
-![tammyNal screenshot] (assets/img/tammyNal.png)
+![tammyNal screenshot](assets/img/tammyNal.png)

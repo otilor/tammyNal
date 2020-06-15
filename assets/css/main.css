@@ -39,7 +39,8 @@ body {
     src: url("../fonts/JetBrainsMono-Regular.ttf");
 }
 
-textarea {
+textarea, [contenteditable] {
+    caret-color: white;
     resize: none;
     outline: none;
     background-color: #000;
