@@ -1,10 +1,11 @@
 body {
-    background-color: #4e4747;
+    background-color: #272727;
     color: #ffffff;
     font-family: "JetBrainsMono";
 }
 .lead {
     font-size: 27px;
+    color: #fff;
 }
 .center {
     text-align: center;
@@ -20,7 +21,7 @@ body {
     border-radius: 12px;
 }
 #terminal-lead-text {
-
+    color: #ff5100;
     padding-left: 15px;
 }
 .center-div
@@ -39,12 +40,14 @@ body {
 }
 
 textarea {
-    background-color: black;
+    resize: none;
+    outline: none;
+    background-color: #000;
     color: white;
     width: 500px;
     height: 300px;
-    border: none;
     font-size: 17px;
     padding: 20px;
+    border: 1px solid crimson;
     border-radius: 12px;
 }
