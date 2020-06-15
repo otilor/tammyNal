@@ -9,6 +9,8 @@ import (
 
 func main() {
 	router := mux.NewRouter()
+	// serve assets directory
+	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 	router.HandleFunc("/", tammyNal.Index)
 
 	server := &http.Server{
