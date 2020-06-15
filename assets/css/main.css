@@ -31,12 +31,20 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 500px;
-    height: 500px;
-    background-color: #ffffff;
 }
 
 @font-face {
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono-Regular.ttf");
+}
+
+textarea {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 300px;
+    border: none;
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 12px;
 }
