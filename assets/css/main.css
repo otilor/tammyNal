@@ -19,7 +19,10 @@ body {
     background-color: #000000;
     border-radius: 12px;
 }
+#terminal-lead-text {
 
+    padding-left: 15px;
+}
 .center-div
 {
     position: absolute;
