@@ -32,6 +32,10 @@ body {
     bottom: 0;
     left: 0;
 }
+@font-face {
+    font-family: "InconsolataCondensed";
+    src: url("../fonts/InconsolataCondensed-SemiBold.ttf");
+}
 
 @font-face {
     font-family: "JetBrainsMono";
@@ -72,4 +76,6 @@ body {
 
 #answer {
     color: #dc143c;
+    font-family: InconsolataCondensed;
+    font-weight: bold;
 }
