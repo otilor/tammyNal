@@ -65,3 +65,6 @@ body {
     border: 1px solid crimson;
     border-radius: 12px;
 }
+#console-icon {
+    color: #2fff00;
+}
